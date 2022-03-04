@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+## Background
 
-You can use the [editor on GitHub](https://github.com/anticlimactic/anticlimactic.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+I am a software engineer with 5+ years experience. I am particularly interested in financial markets and defi.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Skills
 
-### Markdown
+Languages in order of proficiency:
+- python3
+- solidity
+- javascript
+- rust (completely new, but interested)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Tools
+- ethersjs, eth-brownie, foundry
+- ganache, hardhat
+- linux, aws, git, ci
 
-```markdown
-Syntax highlighted code block
+## Repos of Note
 
-# Header 1
-## Header 2
-### Header 3
+[RaffleMint](https://github.com/anticlimactic/RaffleMint): a novel ERC721 implementation that attempts to circumvent "unfair" mints by using an on-chain raffle with economic incentives. Participants lock up ether for a period of time to participate. Opportunity cost is high in crypto and thus encourages only loyal community members to participate.
 
-- Bulleted
-- List
+[RaffleMint-Foundry](https://github.com/anticlimactic/RaffleMint-Foundry): same repo as above, but with foundry for tests/gas optimisation vs. eth-brownie.
 
-1. Numbered
-2. List
+[Solidity Examples](https://github.com/anticlimactic/solidity-examples): a collection of solidity example projects (e.g. erc20 implementation, novel index fund implementation etc).
 
-**Bold** and _Italic_ and `Code` text
+[Gas Optimisations](https://github.com/anticlimactic/gas-optimisations): a repository that takes advantage of foundry's gas snapshot to demonstrate gas optimisations. WIP.
 
-[Link](url) and ![Image](src)
-```
+[Yearn's veYfi](https://github.com/anticlimactic/veYfi): submitted some PR's here.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Various Defi Thoughts
 
-### Jekyll Themes
+[Why yields will collapse and volatility will increase as defi matures.](https://twitter.com/_anticlimactic/status/1497440407323815938)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anticlimactic/anticlimactic.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[Why eth post-merge yields will be <9-12%.](https://twitter.com/_anticlimactic/status/1497442567470063623)
 
-### Support or Contact
+[Why buybacks are not always the most efficient use of capital for a DAO.](https://twitter.com/_anticlimactic/status/1495339017503916033)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[LOOKS tokenomics analysis.](https://twitter.com/_anticlimactic/status/1493384743970537477)
+
+[Batch auctions as a mechanism for index fund rebalancing.](https://twitter.com/_anticlimactic/status/1498452007862280192)
+
+[yPools, the future of Yearn.](https://twitter.com/_anticlimactic/status/1496761070534467587)
