@@ -17,9 +17,9 @@ Tools
 
 ## Repos of Note
 
-[RaffleMint](https://github.com/anticlimactic/RaffleMint): a novel ERC721 implementation that attempts to circumvent "unfair" mints by using an on-chain raffle with economic incentives. Participants lock up ether for a period of time to participate. Opportunity cost is high in crypto and thus encourages only loyal community members to participate.
+[RaffleMint](https://github.com/anticlimactic/RaffleMint): a novel ERC721 implementation that attempts to circumvent "unfair" mints by using an on-chain raffle with economic incentives. Participants lock up ether for a period of time to participate. Opportunity cost is high in crypto and thus encourages only loyal community members to participate. Uses foundry for tests.
 
-[RaffleMint-Foundry](https://github.com/anticlimactic/RaffleMint-Foundry): same repo as above, but with foundry for tests/gas optimisation vs. eth-brownie.
+[RaffleMint-Brownie](https://github.com/anticlimactic/RaffleMint-Brownie): same repo as above, but with eth-brownie for tests/gas optimisation instead of foundry (deprecated now).
 
 [Solidity Examples](https://github.com/anticlimactic/solidity-examples): a collection of solidity example projects (e.g. erc20 implementation, novel index fund implementation etc).
 
